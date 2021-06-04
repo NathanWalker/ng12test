@@ -6,3 +6,8 @@ runNativeScriptAngularApp({
   appModuleBootstrap: () => platformNativeScript().bootstrapModule(AppModule),
 });
 
+
+import hmrAccept from './hmr-accept';
+
+hmrAccept(module);
+
